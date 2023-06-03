@@ -1,0 +1,12 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
+ */
+/*
+ * Public API Surface of ngx-scanner-qrcode-single
+ */
+export { NgxScannerQrcodeSingleService } from './lib/ngx-scanner-qrcode-single.service';
+export { NgxScannerQrcodeSingleComponent } from './lib/ngx-scanner-qrcode-single.component';
+export { NgxScannerQrcodeSingleModule } from './lib/ngx-scanner-qrcode-single.module';
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljX2FwaS5qcyIsInNvdXJjZVJvb3QiOiJuZzovL25neC1zY2FubmVyLXFyY29kZS1zaW5nbGUvIiwic291cmNlcyI6WyJwdWJsaWNfYXBpLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7Ozs7QUFJQSw4Q0FBYyx5Q0FBeUMsQ0FBQztBQUN4RCxnREFBYywyQ0FBMkMsQ0FBQztBQUUxRCw2Q0FBYyx3Q0FBd0MsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbIi8qXG4gKiBQdWJsaWMgQVBJIFN1cmZhY2Ugb2Ygbmd4LXNjYW5uZXItcXJjb2RlLXNpbmdsZVxuICovXG5cbmV4cG9ydCAqIGZyb20gJy4vbGliL25neC1zY2FubmVyLXFyY29kZS1zaW5nbGUuc2VydmljZSc7XG5leHBvcnQgKiBmcm9tICcuL2xpYi9uZ3gtc2Nhbm5lci1xcmNvZGUtc2luZ2xlLmNvbXBvbmVudCc7XG5leHBvcnQgKiBmcm9tICcuL2xpYi9uZ3gtc2Nhbm5lci1xcmNvZGUtc2luZ2xlLm9wdGlvbnMnO1xuZXhwb3J0ICogZnJvbSAnLi9saWIvbmd4LXNjYW5uZXItcXJjb2RlLXNpbmdsZS5tb2R1bGUnO1xuXG4iXX0=
