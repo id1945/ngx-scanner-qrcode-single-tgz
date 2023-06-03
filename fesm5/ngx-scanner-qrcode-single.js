@@ -1,7 +1,7 @@
 import { __assign, __awaiter, __generator, __spread, __values } from 'tslib';
 import jsQR from 'jsqr';
 import { AsyncSubject, BehaviorSubject } from 'rxjs';
-import { Injectable, NgModule, EventEmitter, Component, ViewChild, ViewEncapsulation, defineInjectable } from '@angular/core';
+import { Injectable, NgModule, defineInjectable, EventEmitter, Component, ViewChild, ViewEncapsulation } from '@angular/core';
 
 /**
  * @fileoverview added by tsickle
@@ -1047,6 +1047,7 @@ var NgxScannerQrcodeSingleComponent = /** @class */ (function () {
         window.addEventListener("resize", function () {
             if (_this.dataForResize) {
                 DRAW_RESULT_APPEND_CHILD(/** @type {?} */ (_this.dataForResize), _this.canvas.nativeElement, _this.resultsPanel.nativeElement, _this.canvasStyles);
+                _this.video.nativeElement.style.height = _this.canvas.nativeElement.offsetHeight + 'px';
             }
         });
     };

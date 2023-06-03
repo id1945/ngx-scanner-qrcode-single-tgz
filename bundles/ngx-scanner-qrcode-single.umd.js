@@ -1248,6 +1248,7 @@
                 window.addEventListener("resize", function () {
                     if (_this.dataForResize) {
                         DRAW_RESULT_APPEND_CHILD(/** @type {?} */ (_this.dataForResize), _this.canvas.nativeElement, _this.resultsPanel.nativeElement, _this.canvasStyles);
+                        _this.video.nativeElement.style.height = _this.canvas.nativeElement.offsetHeight + 'px';
                     }
                 });
             };

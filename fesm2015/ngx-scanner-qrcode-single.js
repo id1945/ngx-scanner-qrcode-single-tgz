@@ -900,6 +900,7 @@ class NgxScannerQrcodeSingleComponent {
         window.addEventListener("resize", () => {
             if (this.dataForResize) {
                 DRAW_RESULT_APPEND_CHILD(/** @type {?} */ (this.dataForResize), this.canvas.nativeElement, this.resultsPanel.nativeElement, this.canvasStyles);
+                this.video.nativeElement.style.height = this.canvas.nativeElement.offsetHeight + 'px';
             }
         });
     }
